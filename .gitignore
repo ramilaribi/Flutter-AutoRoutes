@@ -43,3 +43,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/assets
+/web 
+/windows
+.gitignore
+.metadata
+/analysis_options.yaml
+/ios
+/.vscode
+/android
+/linux
+/macos
+/test
+/pubspec.lock
