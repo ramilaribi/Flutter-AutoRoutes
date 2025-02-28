@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "my_app (dev)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_dev.dart",
+        "toolArgs": ["--flavor", "dev"],  // Pass dev flavor
+        "args": []
+      },
+      {
+        "name": "my_app (prod)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_prod.dart",  // Point to your prod main.dart file
+        "toolArgs": ["--flavor", "prod"],  // Pass prod flavor
+        "args": []
+      },
+      {
+        "name": "my_app (staging)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_staging.dart",  // Point to your prod main.dart file
+        "toolArgs": ["--flavor", "prod"],  // Pass prod flavor
+        "args": []
+      },
+      {
+        "name": "my_app (profile mode)",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "profile"
+      },
+      {
+        "name": "my_app (release mode)",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "release"
+      }
+    ]
+  }
+  
